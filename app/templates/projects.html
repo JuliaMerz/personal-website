@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block body %}
+<h2>Projects</h2>
+<p>
+Most of the things I've built are one shot hackathon projects that aren't suitable for general release. Anything suitable and fun to play with will eventually get added here.
+
+<h3>ECC Problem Generator</h3>
+<p>
+This was made after a computer science professor at UC Berkeley wanted someone to take
+an offline script that printed some ECC problems and put it online. I converted the
+script to use a web form instead of stdin for input and display errors in a more
+graceful manner. Then I stuck it into a Flask server and put it up here.
+</p>
+
+<a href="http://ecc.smerz.io" target="_blank">Live demo.</a>
+{% endblock %}
